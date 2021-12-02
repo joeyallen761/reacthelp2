@@ -1,7 +1,7 @@
 {
   "name": "reacthelp",
   "main": "./lib/reacthelp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that helps React example compatibility",
   "keywords": [],
   "activationCommands": {
