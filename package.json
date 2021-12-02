@@ -1,12 +1,14 @@
 {
   "name": "reacthelp",
   "main": "./lib/reacthelp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A package that helps React example compatibility",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["reacthelp:toggle", "reacthelp:replaceOutdatedExport"]
+    "atom-workspace": [
+      "reacthelp:toggle",
+      "reacthelp:replaceOutdatedExport"
+    ]
   },
   "repository": "https://github.com/joeyallen761/reacthelp2",
   "license": "MIT",
@@ -14,6 +16,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery":"^2.1.4"
+    "jquery": "^2.1.4"
   }
 }
