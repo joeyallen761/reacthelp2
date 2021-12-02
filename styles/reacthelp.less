@@ -1,0 +1,277 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.reacthelp {
+width: 312px;
+
+  .button {
+  padding: 3px 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.infoPanelHeader{
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  font-size: 24px;
+  visibility: hidden;
+}
+
+.infoPanelImage{
+  width:100%;
+  visibility: hidden;
+}
+
+.infoPanelButton{
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  visibility: hidden;
+}
+
+.infoPanelButton:hover{
+  background-color: darkgray;
+  color: black;
+}
+
+.infoPanelText{
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  overflow-wrap: ;
+  padding-left: 12px;
+  padding-right: 12px;
+  visibility: hidden;
+}
+
+.historyPanelHeader{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.historyPanelBody{
+  background-color: darkgray;
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+}
+
+.historyAnchor{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+}
+
+.exportDivClass{
+  font-size: 18px;
+  background: darkgray;
+  color: black;
+  font-weight: bold;
+}
+.exportDivText{
+  font-size:12px;
+  background: lightgray;
+  color: black;
+}
+.exportDivEnd{
+  font-size:9px;
+  background: darkgray;
+}
+
+.fixButton {
+padding: 6px 10px;
+font-size: 14px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #000;
+background-color: #4CAF50;
+border: 1px solid black;
+border-radius: 6px;
+}
+
+.fixButton:hover {background-color: #3e8e41}
+
+.fixButton:active {
+background-color: #3e8e41;
+
+transform: translateY(4px);
+}
+
+.learnMoreButton {
+padding: 6px 10px;
+font-size: 14px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #000;
+background-color: white;
+border: 1px solid black;
+border-radius: 6px;
+}
+
+.learnMoreButton:hover {background-color: grey}
+
+.learnMoreButton:active {
+background-color: #3e8e41;
+
+transform: translateY(4px);
+}
+
+.hideButton {
+padding: 6px 10px;
+font-size: 14px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #000;
+background-color: red;
+border: 1px solid black;
+border-radius: 6px;
+}
+
+.hideButton:hover {background-color: darkred}
+
+.hideButton:active {
+background-color: darkred;
+
+transform: translateY(4px);
+}
+
+.simpleMarkerButton{
+  padding: 6px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+}
+.simpleMarkerButton:hover {background-color: darkred;}
+
+.simpleMarkerButton:active {
+background-color: #3e8e41;
+transform: translateY(4px);
+}
+
+.tooltip{
+
+}
+
+.historyItem{
+  width: 100%;
+  background: white;
+  color: black;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.historyItem:hover{
+  background: black;
+  color: white;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.square {
+  //height: 50px;
+  width: 2px;
+  background-color: white;
+  left: 0;
+  float: left;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.divModal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.historyCode{
+  width: 100%;
+  height: 400px;
+  .header{
+    text-align: center;
+  }
+  .codeBox{
+    height: 350px;
+    width: 80%;
+    //margin: auto;
+    float: right;
+    background: black;
+    padding-top: 10px;
+    color: white;
+    overflow: scroll;
+
+    user-select: text;
+  }
+  .close{
+    background: #F9785C;
+    color: white;
+    float: left;
+    height: 350px;
+    width: 19%;
+    text-align: center;
+    font-size: 128px;
+
+  }
+  .close:hover{
+    background: #F95C3A;
+  }
+}

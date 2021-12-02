@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle reacthelp",
+        "command": "reacthelp:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "reacthelp",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "reacthelp:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

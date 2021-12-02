@@ -1,0 +1,67 @@
+
+{
+  "descriptionLayers": [
+  {
+    "description": "description1",
+    "key": "A",
+    "buttons": [
+      {
+        "text":"Learn More",
+        "action": "switch active key: B"
+      }
+    ]
+  },
+  {
+    "description": "description2",
+    "key": "B"
+  }
+
+  ],
+  "photos": [
+    {
+      "photo": "example.png",
+      "size": [4,4]
+      "location":"center modal",
+      "caption": "here is the caption"
+      "key": "A"
+    },
+    {
+      "photo": "example.png",
+      "size": [4,3],
+      "location":"right panel middle",
+      "caption": "here is the caption",
+      "key": "A"
+    }
+  ]
+}
+
+JSX for a piece of render code
+react components for each interaction GUI type
+todo: pet experiment with new JSX string passed in--how does this affect
+
+React component: help panel
+9:30 Friday call with Rithu
+
+
+
+
+
+
+
+
+{
+  "type": "noExport",
+  "shortDescription": "No export detected in file",
+  "medDescription": "In React, each file must export an object to be visible to other objects",
+  "longDescription": "React components render Components in a tree-like hierarchy. ReactDOM is only used to render the root component. Additional components that are created must be exported... [type full Desc here]",
+  "referenceURL": "https://www.geeksforgeeks.org/reactjs-importing-exporting/",
+  "exampleImage":"exports.png"
+}
+
+
+more flexible: arrays of possible inputs--brainstorm interaction patterns/options for feedback
+space for more open ended options
+JSX
+don't let fixed format drive the interaction/feedback
+know all possible components of feedback/info are: descriptions, photos, captions, etc
+photo carousel of N examples?
